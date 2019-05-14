@@ -1,6 +1,6 @@
-num=raw_input()
+num=int(input())
 Count = 0
 while(num > 0):
-    num = Number // 10
-    Count = Count + 1
+ num = num // 10
+ Count = Count + 1
 print(Count)
